@@ -1,0 +1,11 @@
+{
+    "name": "gogistics-nodejs-test",
+    "private": true,
+    "version": "0.0.1",
+    "description": "base image of nodejs for hosting web server",
+    "author": "Alan Tai",
+    "dependencies": {
+        "express": "*",
+        "forever": "*"
+    }
+}
