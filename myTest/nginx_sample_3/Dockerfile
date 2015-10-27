@@ -5,7 +5,7 @@ FROM nginx
 MAINTAINER Alan Tai <gogistics@gogistics-tw.com>
 
 # install nginx
-RUN apt-get update && apt-get install -y nginx
+RUN apt-get update && apt-get install -y nginx git
 RUN rm -rf /etc/nginx/sites-enabled/default
 
 # forward request and error logs to docker log collector
