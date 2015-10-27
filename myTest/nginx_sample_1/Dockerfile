@@ -5,7 +5,7 @@ FROM ubuntu:latest
 MAINTAINER Alan Tai <gogistics@gogistics-tw.com>
 
 # Install necessary tools
-RUN apt-get update && apt-get install -y nano wget dialog net-tools
+RUN apt-get update && apt-get install -y nano wget dialog net-tools git
 
 # Download and Install Nginx
 RUN apt-get install -y nginx  
